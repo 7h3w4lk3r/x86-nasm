@@ -1,7 +1,9 @@
-### A few simple programs written in assembly with NASM
-I created this repo to keep some of the things i learn about intel IA-32 architecture. these are probably not useful anywhere but might help anyone who wants to learn intel x86 assembly programming. 
+### A few simple intel x86 assembly programs  
+i searched a lot for an all-in-one tutorial, book or any other resource to learn NASM fast, but i couldnt find anything.  
+so i created this repo to keep track of everything that i learn about x86 programming. this might help you if you are new to assembly and want to learn reversing, binary analysis or vulnerability research.  
 
-### Compiling and Linking
-to create the object file and link the programs you can use these commands:  
-`nasm -f elf app.asm -o app.o`  
-`ld -s -o app app.o -m elf_386`  
+### Usage  
+just practice the lessons in order, all programs are well-commented and you should be able to get it with a basic knowledge of registers, stack and program execution cycle
+
+# Contribution  
+as always im open to any contributions, suggestions, rants or issues that you might have. feel free to share :) 
