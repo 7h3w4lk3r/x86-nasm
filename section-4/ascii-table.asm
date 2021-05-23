@@ -1,4 +1,4 @@
-; display the whole ascii table using subroutines
+; display the whole ascii table using a loop
 
 section .text
 global _start
