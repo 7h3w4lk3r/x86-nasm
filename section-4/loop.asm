@@ -20,7 +20,7 @@ int	80h		; print the number
 mov	eax, [num]	; move number to eax for incrementing
 sub	eax, '0'	; this converts the character in al into the numbers 1-9 in the loop
 inc	eax		; increment eax by 1 for next number
-add	eax, '0'
+add	eax, '0'	; converts number to character for printing
 pop	ecx		; pop the counter value back to ecx
 loop	l1		; loop through l1 block
 
