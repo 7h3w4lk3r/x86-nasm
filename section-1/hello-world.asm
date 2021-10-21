@@ -14,7 +14,7 @@ len equ $ - msg			; assign the length of the msg to len variable
     mov     ecx, msg        ; ecx holds the message
     mov     ebx, 1          ; 1 is for writing to STDOUT file
     mov     eax, 4          ; invokes SYS_WRITE (kernel opcode 4), eax executes the syscalls by opcode
-    int     80h             ; execute the instructions, actually executes the opcode in eax
+    int     80h             ; execute the instructions, actually invoke a software interrupt
 
     mov     ebx, 0	    ; return exit status 0 - indicating no errors
     mov     eax, 1          ; invokes SYS_EXIT (kernel opcode 1) to exit the program gracefully

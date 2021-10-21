@@ -1,6 +1,6 @@
 ; add two hard coded variables and print the sum
 ; remember these:
-; for converting ascii to decimal --> subtract '0'
+; for converting ascii to decimal --> sub '0'
 ; for converting decimal to ascii --> add '0'
 
 section .data

@@ -1,4 +1,4 @@
-; a demo for DIV instruction, devides 8 bt 2 using AX and BL
+; a demo for DIV instruction, devides 8 by 2 using AX and BL
 
 section .data
 msg db "result: "
