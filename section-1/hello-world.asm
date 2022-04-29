@@ -3,7 +3,14 @@
 ; this section holds the declared variables, we can use 'segment' instead of 'section'
 section .data
 msg db 'hello world!', 0ah      ; assign msg variable with string, 0ah is the new-line character
+
 len equ $ - msg			; assign the length of the msg to len variable
+; '$ - msg' means current address of the assembler ($) minus the address of msg 
+; which is the length of the string
+; $ is used to refer to the current address
+; $$ is used to refer to the address of the start of current section in assembly.
+
+
 
  ; this section contains the main code of the program and instructions
  section .text
