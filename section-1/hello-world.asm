@@ -9,7 +9,8 @@ len equ $ - msg			; assign the length of the msg to len variable
 ; which is the length of the string
 ; $ is used to refer to the current address
 ; $$ is used to refer to the address of the start of current section in assembly.
-
+; EQU defines a symbol to a given constant value
+; This definition is absolute, and cannot change later
 
 
  ; this section contains the main code of the program and instructions
